@@ -18,8 +18,8 @@ def teardown_function():
 
 def my_credit():
     return [
-        ('sajjad1', 'ali123'),
-        ('sajjad2', 'eeeee'),
+        ('sajjad1@gmail.com', 'ali123'),
+        ('sajjad2@gmail.com', 'eeeee'),
     ]
 @pytest.mark.parametrize("username, passwrd", my_credit())
 def test_myabd1(username, passwrd):
